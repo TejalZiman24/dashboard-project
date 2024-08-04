@@ -1,0 +1,47 @@
+.main-order{
+  height: 46vh;
+  background-color: rgb(46, 51, 55);
+  width: 97%;
+  border-radius: 6px;
+}
+
+.column-table{
+  padding: 5px;
+  margin: 5px;
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-order h3{
+  margin: 8px;
+  padding: 3px;
+  font-weight: 800;
+  font-size: 22px;
+  color: rgb(245, 112, 4);
+}
+.labels{
+  font-size: 19px;
+  font-weight: 700;
+  margin: 10px;
+}
+.btn{
+  background-color: green;
+  width: 90px;
+  height: 4vh;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.detail{
+  font-size: 14px;
+  margin: 7px;
+  font-weight: 400;
+  
+}
+.btn:hover{
+  border-color: rgb(241, 12, 12);
+  color: rgb(232, 215, 220);
+}
+.under_line{
+  margin: 10px;
+ 
+}

@@ -1,0 +1,35 @@
+.card-feedback {
+  height: 46vh;
+  background-color: rgb(46, 51, 55);
+  width: 33%;
+  border-radius: 6px;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+.card-title {
+  margin: 8px;
+  padding: 3px;
+  font-weight: 800;
+  font-size: 22px;
+  color: rgb(245, 112, 4);
+}
+
+.card-body {
+  margin: 18px;
+  padding: 0;
+}
+
+.card-body h5 {
+  margin: 5px;
+}
+
+.card-body p {
+  margin: 0;
+  padding: 0;
+}
+
+.review {
+  color: yellow;
+}

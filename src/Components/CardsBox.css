@@ -1,0 +1,59 @@
+.main-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+  gap: 40px;
+  margin: 15px 0;
+  width: 72%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card:first-child {
+  background-color: rgb(40, 46, 46);
+}
+.card:nth-child(2) {
+  background-color: rgb(40, 46, 46);
+}
+.card:nth-child(3) {
+  background-color: rgb(40, 46, 46);
+}
+.card:nth-child(4) {
+  background-color: rgb(40, 46, 46);
+}
+.profit {
+  width: 100%;
+}
+.card:nth-child(5) {
+  background-color: rgb(40, 46, 46);
+}
+.card-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-inner > .card_icon {
+  font-size: 25px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card-down-arrow {
+  background-color: red;
+  align-self: flex-end;
+  border-radius: 10px;
+  height: 17px;
+}

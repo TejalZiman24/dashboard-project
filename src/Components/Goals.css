@@ -1,0 +1,20 @@
+.menus{
+  width:33% ;
+  height: 240px;
+  background-color: rgb(40, 46, 46);
+  
+  border-radius: 2px;
+}
+.goals{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 17px;
+  padding: 0;
+}
+.icons-icon{
+ 
+  width: 24%;
+  height: 60px;
+  border-radius: 24px;
+}
