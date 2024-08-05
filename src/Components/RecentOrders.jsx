@@ -6,11 +6,10 @@ details;
 import logo from "../assets/support.png";
 
 const RecentOrders = () => {
-  const handleButton=()=>{
-    
-  }
+  const handleButton = () => {};
   return (
     <div className="main-order">
+      
       <h3>Recent Orders</h3>
       <div class="column-table">
         <div class="col-3 kg-row">
@@ -40,7 +39,7 @@ const RecentOrders = () => {
         {details.map((data) => {
           return (
             <div className="under_line" key={data.id}>
-              <div class="column-table" >
+              <div class="column-table">
                 <div class="col-3 kg-row">
                   <label htmlFor="" className="detail">
                     {data.name}
@@ -57,7 +56,9 @@ const RecentOrders = () => {
                   </label>
                 </div>
                 <div class="col-2">
-                  <button onClick={handleButton} className="btn">{data.button} </button>
+                  <button onClick={handleButton} className="btn">
+                    {data.button}{" "}
+                  </button>
                 </div>
               </div>
               <hr />

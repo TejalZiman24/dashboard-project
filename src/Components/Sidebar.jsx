@@ -28,31 +28,31 @@ const Sidebar = () => {
       <ul className="sidebar-list" >
         <li className="sidebar-list-item">
           <a href="">
-            <BsGrid1X2Fill className="icon"  /> Dashboard
+            <BsGrid1X2Fill className="icon"  /> Home
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="">
-            <BsCart3 className="icon" /> Dashboard
+            <BsCart3 className="icon" /> Data
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="">
-            <BsCart3 className="icon" /> Dashboard
+            <BsCart3 className="icon" /> TODO List
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="">
-            <BsFillGrid3X3GapFill className="icon" /> Categories
+            <BsFillGrid3X3GapFill className="icon" /> Wallet
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="">
-            <BsPeopleFill className="icon" /> Customer
+            <BsPeopleFill className="icon" /> Store
           </a>
         </li>
       </ul>

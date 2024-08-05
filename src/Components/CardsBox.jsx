@@ -76,15 +76,17 @@ const CardsBox = () => {
           </div>
         </div>
 
-        <div className="card profit">
+        <div className="card">
           <div className="card-inner">
             <h3>New Profit</h3>
             <TbCirclePercentage className="card_icon" />
           </div>
           <div className="card-footer">
+            
             <h1>$6759.25</h1>
             <div className="card-down-arrow">
               <HiOutlineArrowCircleDown />
+              
             </div>
           </div>
         </div>
