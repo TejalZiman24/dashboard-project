@@ -5,6 +5,11 @@ import Home from "./Components/Home";
 import Sidebar from "./Components/Sidebar";
 
 function App() {
+  const [navOpen, setNavOpen] = useState(true);
+  const navToggle = () => {
+    setNavOpen(!navOpen);
+  };
+
   const [mode, setmode] = useState("light");
   const togglemode = () => {
     if (mode === "dark") {
@@ -19,7 +24,7 @@ function App() {
   return (
     <div className="grid-container">
       <Header mode={mode} togglemode={togglemode}></Header>
-      <Sidebar></Sidebar>
+      <Sidebar navOpen={ navOpen } navToggle = { navToggle }></Sidebar>
       <Home></Home>
     </div>
   );

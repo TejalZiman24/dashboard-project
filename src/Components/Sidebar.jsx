@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Sidebar.css";
 
 import Hamburger from "hamburger-react";
@@ -8,17 +8,11 @@ import { BiBarChartSquare } from "react-icons/bi";
 import { TbChecklist } from "react-icons/tb";
 import { LiaWalletSolid } from "react-icons/lia";
 
-const Sidebar = () => {
-  const [navOpen, setNavOpen] = useState(true);
-  const navToggle = () => {
-    setNavOpen(!navOpen);
-  };
+const Sidebar = ({ navOpen, navToggle }) => {
+  
   return (
     <aside
       id="sidebar"
-      style={{
-        width: navOpen ? "210px" : "30%",
-      }}
     >
       <div className="sidebar-title">
         <div className="sidebar-brand">

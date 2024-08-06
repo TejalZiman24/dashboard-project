@@ -115,3 +115,10 @@
   font-size: 9px;
   width: 180px;
 }
+
+@media screen and (max-width: 1300px) {
+  .main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
