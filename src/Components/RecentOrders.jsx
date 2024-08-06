@@ -11,23 +11,23 @@ const RecentOrders = () => {
     <div className="main-order">
       
       <h3>Recent Orders</h3>
-      <div class="column-table">
-        <div class="col-3 kg-row">
+      <div className="column-table">
+        <div className="col-3 kg-row">
           <label className="labels" htmlFor="">
             Customers
           </label>
         </div>
-        <div class="col-2">
+        <div className="col-2">
           <label className="labels" htmlFor="">
             Orders No.
           </label>
         </div>
-        <div class="col-2">
+        <div className="col-2">
           <label className="labels" htmlFor="">
             Amount
           </label>
         </div>
-        <div class="col-2">
+        <div className="col-2">
           <label className="labels" htmlFor="">
             Status
           </label>
@@ -39,23 +39,23 @@ const RecentOrders = () => {
         {details.map((data) => {
           return (
             <div className="under_line" key={data.id}>
-              <div class="column-table">
-                <div class="col-3 kg-row">
+              <div className="column-table">
+                <div className="col-3 kg-row">
                   <label htmlFor="" className="detail">
                     {data.name}
                   </label>
                 </div>
-                <div class="col-2">
+                <div className="col-2">
                   <label htmlFor="" className="detail">
                     {data.order}
                   </label>
                 </div>
-                <div class="col-2">
+                <div className="col-2">
                   <label htmlFor="" className="detail">
                     {data.amount}
                   </label>
                 </div>
-                <div class="col-2">
+                <div className="col-2">
                   <button onClick={handleButton} className="btn">
                     {data.button}{" "}
                   </button>

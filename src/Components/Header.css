@@ -9,26 +9,29 @@
   background-color: #232328;
   width: 96%;
 }
-.menu-icon {
-  display: none;
+
+.header-left {
+  border-radius: 8px;
+  width: 200px;
+  display: flex;
+  justify-content: start;
+  gap: 0.5em;
+  align-items: center;
 }
-.search-text {
-  width: 80%;
-  height: 28px;
-  border-radius: 10px;
+
+.header-left > input {
+  width: 100%;
+  border: none;
+  z-index: 1;
+  padding: 5px;
 }
-.icon {
-  vertical-align: middle;
-  line-height: 1px;
-  font-size: 20px;
-  cursor: pointer;
+
+.header-left > input:focus {
+  outline: none;
 }
-.icon_header {
-  vertical-align: middle;
-  line-height: 1px;
-  font-size: 26px;
-}
-.icon,
-.icon_header {
-  margin-right: 5px;
+
+.header-right {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
 }

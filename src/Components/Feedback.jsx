@@ -4,9 +4,9 @@ import { MdOutlineStarOutline } from "react-icons/md";
 
 const Feedback = () => {
   return (
-    <div class="card-feedback">
-      <h3 class="card-title">Customer's Feedback</h3>
-      <div class="card-body">
+    <div className="card-feedback">
+      <h3 className="card-title">Customer's Feedback</h3>
+      <div className="card-body">
         <h5>Jenny Wilson</h5>
         <div className="review">
           <MdOutlineStarOutline />
