@@ -20,8 +20,6 @@ body::-webkit-scrollbar {
   height: 120vh;
 }
 
-/* Main */
-
 .main-container {
   grid-area: main;
   color: rgba(255, 255, 255, 0.95);
@@ -34,37 +32,6 @@ body::-webkit-scrollbar {
 
 .main-title > h3 {
   padding: 0 30px;
-}
-
-@media screen and (max-width: 1300px) {
-  .grid-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 3fr;
-    grid-template-rows:
-      "header"
-      "main";
-  }
-  #sidebar {
-    display: none;
-  }
-  .menu-icon {
-    display: inline;
-  }
-  .sidebar-title > span {
-    display: inline;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .navCollapse {
-    width: 80px;
-  }
-  .navCollapse .sidebar-list-item {
-    display: none;
-  }
-  .navCollapse .sidebar-list {
-    padding: 28px;
-  }
 }
 
 .card:first-child {

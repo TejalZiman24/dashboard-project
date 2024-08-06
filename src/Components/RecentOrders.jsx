@@ -3,7 +3,7 @@ import "./RecentOrders.css";
 // import OrderDetails from './OrderDetails'
 import { details } from "./Data";
 details;
-import logo from "../assets/support.png";
+
 
 const RecentOrders = () => {
   const handleButton = () => {};

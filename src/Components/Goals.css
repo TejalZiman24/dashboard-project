@@ -1,20 +1,30 @@
-.menus{
-  width:103% ;
-  height: 264px;
+.menus {
   background-color: rgb(40, 46, 46);
-  
-  border-radius: 2px;
 }
-.goals{
+
+.goals {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin: 17px;
   padding: 0;
 }
-.icons-icon{
- 
-  width: 24%;
+
+.goals > h5 {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.goals > .goals-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goals > .goals-header > .icons-icon {
+  width: 60px;
   height: 60px;
   border-radius: 70px;
+  margin-right: 20px;
 }

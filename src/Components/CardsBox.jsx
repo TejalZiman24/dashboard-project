@@ -5,6 +5,7 @@ import { TbCalendarCancel } from "react-icons/tb";
 import { BiDetail } from "react-icons/bi";
 import { TbCirclePercentage } from "react-icons/tb";
 import { HiOutlineArrowCircleDown } from "react-icons/hi";
+import percentt from "../assets/percent.jpg";
 import {
   FcSurvey,
   FcShipped,
@@ -80,13 +81,16 @@ const CardsBox = () => {
       <div className="card-last">
         <div className="card-inner">
           <h3>Net Profit</h3>
-          <TbCirclePercentage className="card_icon" />
-        </div>
-        <div className="card-footer">
           <h1>$6759.25</h1>
-          <div className="card-down-arrow">
-            <HiOutlineArrowCircleDown />
+          <div className="card-up-arrow">
+            <IoIosArrowDropupCircle />
+            <span>3%</span>
           </div>
+        </div>
+
+        <div className="card-footer">
+          <img src={percentt} alt="" className="card_icon" />
+          <p className="para-line">*The value here has been rounded off.</p>
         </div>
       </div>
     </div>

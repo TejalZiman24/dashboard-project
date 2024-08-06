@@ -14,43 +14,95 @@ const Sidebar = () => {
     setNavOpen(!navOpen);
   };
   return (
-    <aside id="sidebar">
+    <aside
+      id="sidebar"
+      style={{
+        width: navOpen ? "210px" : "30%",
+      }}
+    >
       <div className="sidebar-title">
         <div className="sidebar-brand">
           <Hamburger size={22} toggled={navOpen} toggle={navToggle} />
           <span style={{ display: "inline-block", width: "10px" }}></span>
-          <span>ADMIN</span>
+          <span
+            style={{
+              display: navOpen ? "block" : "none",
+              visibility: navOpen ? "visible" : "hidden",
+            }}
+          >
+            ADMIN
+          </span>
         </div>
       </div>
 
       <ul className="sidebar-list">
         <li className="sidebar-list-item">
           <a href="" className="navbar-items">
-            <AiOutlineHome className="icon" /> <span>Home</span>
+            <AiOutlineHome className="icon" />{" "}
+            <span
+              style={{
+                display: navOpen ? "block" : "none",
+                visibility: navOpen ? "visible" : "hidden",
+              }}
+            >
+              Home
+            </span>
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="" className="navbar-items">
-            <BiBarChartSquare className="icon" /> <span>Analytics</span>
+            <BiBarChartSquare className="icon" />{" "}
+            <span
+              style={{
+                display: navOpen ? "block" : "none",
+                visibility: navOpen ? "visible" : "hidden",
+              }}
+            >
+              Analytics
+            </span>
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="" className="navbar-items">
-            <TbChecklist className="icon" /> <span>Reminders</span>
+            <TbChecklist className="icon" />{" "}
+            <span
+              style={{
+                display: navOpen ? "block" : "none",
+                visibility: navOpen ? "visible" : "hidden",
+              }}
+            >
+              Reminders
+            </span>
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="" className="navbar-items">
-            <LiaWalletSolid className="icon" /> <span>Wallet</span>
+            <LiaWalletSolid className="icon" />{" "}
+            <span
+              style={{
+                display: navOpen ? "block" : "none",
+                visibility: navOpen ? "visible" : "hidden",
+              }}
+            >
+              Wallet
+            </span>
           </a>
         </li>
 
         <li className="sidebar-list-item">
           <a href="" className="navbar-items">
-            <AiOutlineAppstoreAdd className="icon" /> <span>Store</span>
+            <AiOutlineAppstoreAdd className="icon" />{" "}
+            <span
+              style={{
+                display: navOpen ? "block" : "none",
+                visibility: navOpen ? "visible" : "hidden",
+              }}
+            >
+              Store
+            </span>
           </a>
         </li>
       </ul>
