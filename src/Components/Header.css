@@ -34,4 +34,9 @@
   display: flex;
   justify-content: space-evenly;
   width: 150px;
+  font-size: 125%;
+}
+
+.search-text {
+  border-radius: 5px;
 }

@@ -71,30 +71,16 @@
   padding-left: 15px;
 }
 
-@media screen and (min-width: 1300px) {
-  .navbar-items > span {
-    visibility: visible;
-    display: block;
-  }
-
-  .sidebar-brand > span {
-    visibility: visible;
-    display: block;
+@media screen and (max-width: 968px) {
+  .sidebar-title-span {
+    display: none !important;
+    visibility: hidden !important;
   }
 }
 
-@media screen and (min-width: 900px) {
-  .sidebar-brand > span {
-    visibility: hidden;
-    display: none;
-  }
-
-  .navbar-items > span {
-    visibility: hidden;
-    display: none;
-  }
-
-  #sidebar {
-    width: 100%;
+@media screen and (min-width: 968px) {
+  .sidebar-title-span {
+    display: inline-block;
+    visibility: visible;
   }
 }

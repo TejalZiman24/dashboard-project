@@ -1,10 +1,11 @@
 import React from "react";
+import Form from "react-bootstrap/Form";
 import "./Header.css";
 import {
   BsFillBellFill,
   BsFillEnvelopeFill,
   BsPersonCircle,
-  BsSearch
+  BsSearch,
 } from "react-icons/bs";
 import { FaToggleOff } from "react-icons/fa6";
 
@@ -12,7 +13,7 @@ const Header = (props) => {
   return (
     <header className={`header ${props.mode}`}>
       <div className="header-left">
-        <input
+        <Form.Control
           className="search-text"
           type="search"
           placeholder="Search..."

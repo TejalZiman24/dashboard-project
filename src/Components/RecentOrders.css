@@ -3,6 +3,7 @@
   background-color: rgb(46, 51, 55);
   width: 97%;
   border-radius: 6px;
+  overflow: scroll;
 }
 
 .column-table{

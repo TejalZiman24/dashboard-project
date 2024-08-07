@@ -9,18 +9,15 @@ import { TbChecklist } from "react-icons/tb";
 import { LiaWalletSolid } from "react-icons/lia";
 
 const Sidebar = ({ navOpen, navToggle }) => {
-  
   return (
-    <aside
-      id="sidebar"
-    >
+    <aside id="sidebar">
       <div className="sidebar-title">
         <div className="sidebar-brand">
           <Hamburger size={22} toggled={navOpen} toggle={navToggle} />
-          <span style={{ display: "inline-block", width: "10px" }}></span>
           <span
+            className="sidebar-title-span"
             style={{
-              display: navOpen ? "block" : "none",
+              display: navOpen ? "inline-block" : "none",
               visibility: navOpen ? "visible" : "hidden",
             }}
           >
@@ -34,8 +31,9 @@ const Sidebar = ({ navOpen, navToggle }) => {
           <a href="" className="navbar-items">
             <AiOutlineHome className="icon" />{" "}
             <span
+            className="sidebar-title-span"
               style={{
-                display: navOpen ? "block" : "none",
+                display: navOpen ? "inline-block" : "none",
                 visibility: navOpen ? "visible" : "hidden",
               }}
             >
@@ -48,8 +46,9 @@ const Sidebar = ({ navOpen, navToggle }) => {
           <a href="" className="navbar-items">
             <BiBarChartSquare className="icon" />{" "}
             <span
+            className="sidebar-title-span"
               style={{
-                display: navOpen ? "block" : "none",
+                display: navOpen ? "inline-block" : "none",
                 visibility: navOpen ? "visible" : "hidden",
               }}
             >
@@ -62,8 +61,9 @@ const Sidebar = ({ navOpen, navToggle }) => {
           <a href="" className="navbar-items">
             <TbChecklist className="icon" />{" "}
             <span
+            className="sidebar-title-span"
               style={{
-                display: navOpen ? "block" : "none",
+                display: navOpen ? "inline-block" : "none",
                 visibility: navOpen ? "visible" : "hidden",
               }}
             >
@@ -76,8 +76,9 @@ const Sidebar = ({ navOpen, navToggle }) => {
           <a href="" className="navbar-items">
             <LiaWalletSolid className="icon" />{" "}
             <span
+            className="sidebar-title-span"
               style={{
-                display: navOpen ? "block" : "none",
+                display: navOpen ? "inline-block" : "none",
                 visibility: navOpen ? "visible" : "hidden",
               }}
             >
@@ -90,8 +91,9 @@ const Sidebar = ({ navOpen, navToggle }) => {
           <a href="" className="navbar-items">
             <AiOutlineAppstoreAdd className="icon" />{" "}
             <span
+            className="sidebar-title-span"
               style={{
-                display: navOpen ? "block" : "none",
+                display: navOpen ? "inline-block" : "none",
                 visibility: navOpen ? "visible" : "hidden",
               }}
             >
